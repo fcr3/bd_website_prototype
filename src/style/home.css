@@ -1,0 +1,49 @@
+.homelayout {
+	background-image: url('../assets/black.jpg');
+	background-repeat: no-repeat;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.homeleftlayout {
+	color: white;
+	height: 100vh;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.hometext {
+	font-size: 15vmin;
+	width: auto;
+	height: auto;
+	margin-top: 5vh;
+	margin-left: 5vw;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.hometext-bottom {
+	margin-bottom: 10vh;
+	margin-left: 5vw;
+	font-size: 5vmin;
+	font-family: 'Lato', sans-serif;
+}
+
+.ylw {
+	color: yellow;
+}
+
+.homerightlayout {
+	height: 55vh;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

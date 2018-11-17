@@ -1,0 +1,43 @@
+
+#SVG_STUFF
+.cls-1 {
+  fill:none;
+}
+
+.cls-1,.cls-2 {
+  stroke:#fff;
+  stroke-miterlimit:10;
+  stroke-width:5px;
+}
+
+.cls-2{
+  fill:#0071bc;
+}
+
+.cls-3{
+  fill:#fff;
+}
+
+circle {
+  stroke-width: 1;
+  stroke-linecap: round;
+}
+
+circle:hover {
+  fill: yellow;
+  stroke-width: 20;
+  stroke: yellow;
+  transition: 0.2s;
+}
+
+.link:hover > text {
+  color: yellow;
+  fill: yellow;
+  transition: 0.2s;
+  font-size: 17vmin;
+}
+
+.menulayout {
+	height: 37vh;
+	width: 37vw;
+}
