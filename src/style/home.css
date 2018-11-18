@@ -1,21 +1,10 @@
 .homelayout {
-	background-image: url('../assets/black.jpg');
-	background-repeat: no-repeat;
-	width: 100vw;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: flex-start;
-}
-
-.homeleftlayout {
-	color: white;
-	height: 100vh;
 	width: 50vw;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	justify-content: space-between;
-	align-items: flex-start;
 }
 
 .hometext {
@@ -36,14 +25,5 @@
 }
 
 .ylw {
-	color: yellow;
-}
-
-.homerightlayout {
-	height: 55vh;
-	width: 50vw;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	color:  #f9ce19;
 }

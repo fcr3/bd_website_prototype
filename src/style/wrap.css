@@ -1,0 +1,46 @@
+.layout {
+	background-image: url('../assets/black.jpg');
+	background-repeat: no-repeat;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	align-items: space-evenly;
+	justify-content: flex-start;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.leftlayout {
+	color: white;
+	height: 100vh;
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	transition: 0.2s;
+}
+
+.rightlayout {
+	height: 60vh;
+	width: 50vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	transition: 0.2s;
+}
+
+/** Menu CSS for Not Home Pages **/
+
+.moreleft {
+	width: 70vw;
+	height: 100vh;
+	transition: 0.2s;
+}
+
+.fartherright {
+	width: 30vw;
+	height: 60vh;
+	transition: 0.2s;
+}

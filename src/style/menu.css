@@ -1,38 +1,46 @@
 
-#SVG_STUFF
 .cls-1 {
   fill:none;
+  transition: 0.2s;
 }
 
 .cls-1,.cls-2 {
   stroke:#fff;
   stroke-miterlimit:10;
   stroke-width:5px;
+  transition: 0.2s;
 }
 
 .cls-2{
   fill:#0071bc;
+  transition: 0.2s;
 }
 
 .cls-3{
   fill:#fff;
+  transition: 0.2s;
+}
+
+text {
+  transition: 0.2s;
 }
 
 circle {
   stroke-width: 1;
   stroke-linecap: round;
+  transition: 0.2s;
 }
 
-circle:hover {
-  fill: yellow;
+.link:hover > circle {
+  fill: #f9ce19;
   stroke-width: 20;
-  stroke: yellow;
+  stroke: #f9ce19;
   transition: 0.2s;
 }
 
 .link:hover > text {
-  color: yellow;
-  fill: yellow;
+  color:  #f9ce19;
+  fill:  #f9ce19;
   transition: 0.2s;
   font-size: 17vmin;
 }
@@ -40,4 +48,71 @@ circle:hover {
 .menulayout {
 	height: 37vh;
 	width: 37vw;
+  transition: 0.2s
+}
+
+/** Menu Transitions **/
+
+/** about menu css **/
+.aboutmenu {
+  transition: 0.2s;
+  transform-origin: bottom;
+  transform: translateY(8vh) translateX(5vw) scale(1.5);
+}
+
+#about > .abouttext {
+  fill:  #f9ce19;
+  transform: translateX(-15vw) scale(1.2);
+  transition: 0.2s;
+}
+
+#about > .aboutcircle {
+  fill: #f9ce19;
+  transform: translate(-10vw) scale(1.2);
+  transition: 0.2s;
+}
+
+#about > .aboutcircle:hover {
+  fill:  #f9ce19;
+  stroke-width: 0;
+  transition: 0.2s;
+}
+
+#about:hover > .abouttext {
+  color:  #f9ce19;
+  fill:  #f9ce19;
+  transition: 0.2s;
+  font-size: 15vmin;
+}
+
+/** projects menu css **/
+.projectsmenu {
+  transition: 0.2s;
+  transform-origin: bottom;
+  transform: translateY(8vh) translateX(5vw) scale(1.5);
+}
+
+#projects > .projectstext {
+  fill:  #f9ce19;
+  transform: translateX(-10vw) translateY(-40vh) scale(1.2);
+  transition: 0.2s;
+}
+
+#projects > .projectscircle {
+  fill: #f9ce19;
+  transform: translateX(-10vw) translateY(-40vh) scale(1.2);
+  transition: 0.2s;
+}
+
+#projects > .projectscircle:hover {
+  fill:  #f9ce19;
+  stroke-width: 0;
+  transition: 0.2s;
+}
+
+#projects:hover > .projectstext {
+  color:  #f9ce19;
+  fill:  #f9ce19;
+  transition: 0.2s;
+  font-size: 15vmin;
 }
