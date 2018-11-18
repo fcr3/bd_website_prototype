@@ -46,8 +46,9 @@ circle {
 }
 
 .menulayout {
-	height: 37vh;
-	width: 37vw;
+	height: 27vh;
+	width: 27vw;
+  position: fixed;
   transition: 0.2s
 }
 

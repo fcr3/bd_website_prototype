@@ -6,7 +6,7 @@
 	flex-direction: row;
 	align-items: space-evenly;
 	justify-content: flex-start;
-	overflow: hidden;
+	overflow-x: hidden;
 	transition: 0.2s;
 }
 
