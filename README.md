@@ -1,5 +1,10 @@
 # Blockchain@Berkeley Design Website Prototype
 
+This page serves as our website for blockchain@berkeley's design department.
+Renderings:
+
+![Landing](./src/assets/landing.PNG?raw=true "Title")
+![Arbitrary](./src/assets/arbitrary.PNG?raw=true "Title")
 
 ### End of General Info. Below is React Documentation
 
