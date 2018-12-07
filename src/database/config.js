@@ -1,5 +1,5 @@
 var config = {
-  apiKey: "AIzaSyCxyUNLviHiI_9kAWLTreSpInPlQthxq5Q",
+  apiKey: "",
   authDomain: "bab-design-website.firebaseapp.com",
   databaseURL: "https://bab-design-website.firebaseio.com",
   projectId: "bab-design-website",
