@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+#database
+/src
+/database
+config.js
+
 # production
 /build
 
