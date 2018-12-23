@@ -1,9 +1,9 @@
 .homelayout {
-	width: 50vw;
+	width: 85vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 }
 
@@ -15,6 +15,8 @@
 	margin-left: 5vw;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
+	background-color: rgba(0,0,0,0.55);
+	padding: 30px 30px 30px 30px;
 }
 
 .hometext-bottom {
@@ -22,8 +24,54 @@
 	margin-left: 5vw;
 	font-size: 5vmin;
 	font-family: 'Lato', sans-serif;
+	background-color: rgba(0,0,0,0.55);
+	padding: 30px 30px 30px 30px;
 }
 
 .ylw {
 	color:  #f9ce19;
+}
+
+@media screen and (orientation: landscape) and (max-width: 1400px) {
+	.hometext {
+		font-size: 10vmin;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-width: 1080px) {
+	.hometext {
+		font-size: 10vmin;
+	}
+	.hometext-bottom {
+		font-size: 3vmin;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+	.hometext {
+		font-size: 9vmin;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+	.hometext {
+		font-size: 8vmin;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	.homelayout {
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.hometext {
+		margin-left: 0;
+		font-size: 9vmin;
+	}
+	.hometext-bottom {
+		margin-left: 0;
+		margin-top: 16px;
+		text-align: center;
+		font-size: 4vmin;
+	}
 }

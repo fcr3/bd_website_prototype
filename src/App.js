@@ -11,6 +11,7 @@ class App extends Component {
           <Route exact path="/" component={Wrap}/>
           <Route exact path="/about" component={Wrap}/>
           <Route exact path="/projects" component={Wrap}/>
+          <Route exact path="/contact" component={Wrap}/>
         </Switch>
       </div>
     );

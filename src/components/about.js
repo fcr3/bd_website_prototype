@@ -6,11 +6,11 @@ class About extends Component {
 	render() {
 		var execArr = [1,2,3];
 		var desArr = [1,2,3,4,5];
-		var execArr = execArr.map((val, index) => {
-			return (<div className="card">Name, Media, Title</div>)
+		execArr = execArr.map((val, index) => {
+			return (<div key={val} className="card">Name, Media, Title</div>)
 		});
-		var desArr = desArr.map((val, index) => {
-			return (<div className="card">Name, Media, Title</div>)
+		desArr = desArr.map((val, index) => {
+			return (<div key={val} className="card">Name, Media, Title</div>)
 		});
 
 
@@ -31,10 +31,14 @@ class About extends Component {
 						why we exist.
 					</div>
 					<div className="teamsection">
-						<div className="aboutSubHead">executives</div>
-						<div className="teamcards">{execArr}</div>
-						<div className="aboutSubHead">designers</div>
-						<div className="teamcards">{desArr}</div>
+						<div className="seperationDiv">
+							<div className="aboutSubHead">executives</div>
+							<div className="teamcards">{execArr}</div>
+						</div>
+						<div className="seperationDiv">
+							<div className="aboutSubHead">designers</div>
+							<div className="teamcards">{desArr}</div>
+						</div>
 					</div>
 			</div>
 		)
