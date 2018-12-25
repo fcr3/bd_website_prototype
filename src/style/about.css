@@ -75,7 +75,14 @@ font-family: 'Lato', sans-serif;
 
 @media screen and (orientation: portrait) and (max-width: 400px) {
   .card {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
+  .aboutHeader {
+    margin-top: 24px;
+  }
+  .aboutHeader, .aboutSubHead, .teamcards, .aboutBody {
+    margin-left: 32px;
+  }
+
 }
