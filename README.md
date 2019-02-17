@@ -4,7 +4,7 @@ This page serves as our website for blockchain@berkeley's design department.
 Renderings:
 
 ### v2 Demo
-![Demo](.src/assets/demo.gif)
+![Demo](./src/assets/demo.gif)
 
 ### v2
 ![Landing](./src/assets/landing2.PNG)
