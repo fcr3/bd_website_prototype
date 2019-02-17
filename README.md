@@ -9,8 +9,8 @@ Renderings:
 ![Contact](./src/assets/contact.PNG)
 
 ### v1
-![Landing](./src/assets/landing.PNG?raw=true "Title")
-![Arbitrary](./src/assets/arbitrary.PNG?raw=true "Title")
+![Landing](./src/assets/landing.PNG)
+![Arbitrary](./src/assets/arbitrary.PNG)
 
 ### End of General Info. Below is React Documentation
 
