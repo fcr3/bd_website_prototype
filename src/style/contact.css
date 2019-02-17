@@ -1,0 +1,94 @@
+.contactlayout {
+  width: 85vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 64px;
+}
+
+.contactheader {
+  font-size: 10vmin;
+  font-weight: bold;
+  margin-left: 64px;
+  margin-top: 64px;
+  margin-right: 32px;
+  word-wrap: normal;
+}
+
+.contactform {
+  margin-left: 64px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 70%;
+  margin-right: 16px;
+}
+
+input {
+  min-height: 32px;
+  margin-bottom: 16px;
+  max-width: 500px;
+  color: #18191c;
+  font-family: 'Lato', sans-serif;
+  padding: 20px 10px 20px 10px;
+}
+
+.field {
+  min-height: 32px;
+  border-left: solid #eaa536 5px;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  margin-right: 16px;
+}
+
+.message {
+  padding: 20px 10px 20px 10px;
+  width: 90%;
+  min-height: 200px;
+  max-width: 80vw;
+  margin-right: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: 'Lato', sans-serif;
+  border-left: solid #eaa536 5px;
+}
+
+.submitbutton {
+  margin-top: 16px;
+  min-height: 32px;
+  font-family: 'Lato', sans-serif;
+  cursor: pointer;
+  background-color: #18191c;
+  color: white;
+  transition: 0.2s;
+  border: solid #eaa635 5px;
+  font-size: 4vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.submitbutton:hover {
+  transition: 0.2s;
+  background-color: white;
+  color: #eaa536;
+  border: solid #eaa635 5px;
+}
+
+@media screen and (orientation: portrait) and (max-width: 400px) {
+  .contactheader {
+    margin-top: 24px;
+    margin-left: 32px;
+  }
+
+  .contactform {
+    margin-left: 32px;
+  }
+}

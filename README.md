@@ -4,9 +4,9 @@ This page serves as our website for blockchain@berkeley's design department.
 Renderings:
 
 ### v2
-![Landing](./src/assets/landing2.PNG?raw=true "Title")
-![About](./src/assets/about.PNG?raw=true "Title")
-![Contact](./src/assets/contact.PNG?raw=true "Title")
+![Landing](./src/assets/landing2.PNG)
+![About](./src/assets/about.PNG)
+![Contact](./src/assets/contact.PNG)
 
 ### v1
 ![Landing](./src/assets/landing.PNG?raw=true "Title")
